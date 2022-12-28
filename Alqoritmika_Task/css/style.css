@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+/* Desktop */
+@media screen and (min-width: 1400px) {
+    body {
+        margin: auto;
+    }
+    
+    h1 {
+        font-size: 55px;
+        font-weight: 700;
+        font-family: 'Roboto Slab';
+        margin: 90px 0px 40px 124px;
+    }
+    
+    .paragraf-1, .paragraf-2 {
+        width: 662px;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        margin: 0px 0px 40px 124px;
+    }
+
+    .image-1 {
+        top: 226px;
+        left: 976px;
+        position: absolute;
+    }
+    .ellipse-1 {
+        top: 511px;
+        left: 950px;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .image-2 {
+        top: 670px;
+        left: 124px;
+        position: absolute;
+    }
+    .ellipse-2 {
+        top: 787px;
+        left: 157px;
+        z-index: -1;
+        position: absolute;
+    }
+
+    table {
+        margin: 200px 0px 50px 488px;
+    }
+    table th, table td {
+        padding-right: 95px;
+    }
+    table th {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: left;
+        font-family: 'Roboto';
+    }
+    table td {
+        width: 150px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        font-family: 'Roboto';
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 830px) and (max-width: 1399px) {
+    body {
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 32px;
+        font-weight: 700;
+        font-family: 'Roboto Slab';
+        margin: 56px 0px 20px 72px;
+    }
+    
+    .paragraf-1, .paragraf-2 {
+        width: 383px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        margin: 0px 0px 30px 70px;
+    }
+
+    .image-1 {
+        top: 134.19px;
+        left: 565.45px;
+        width: 181.86px;
+        height: 182.44px;
+        position: absolute;
+    }
+    .ellipse-1 {
+        top: 299.25px;
+        left: 550.39px;
+        width: 211.98px;
+        height: 34.17px;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .image-2 {
+        visibility: hidden;
+    }
+    .ellipse-2 {
+        visibility: hidden;
+    }
+
+    table {
+        margin: -140px 0px 150px 72px;
+    }
+    table th, table td {
+        padding-right: 55px;
+    }
+    table th {
+        font-size: 15px;
+        font-weight: 700;
+        text-align: left;
+        font-family: 'Roboto';
+    }
+    table td {
+        width: 100px;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: left;
+        font-family: 'Roboto';
+    }
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 829px) {
+    h1 {
+        font-size: 26px;
+        font-weight: 700;
+        font-family: 'Roboto Slab';
+        margin: 56px 0px 10px 36px;
+    }
+    
+    .paragraf-1, .paragraf-2 {
+        width: 308px;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        margin: 0px 0px 30px 36px;
+    }
+
+    .image-1 {
+        top: 338px;
+        left: 113.12px;
+        width: 146.32px;
+        height: 146.78px;
+        position: absolute;
+    }
+    .ellipse-1 {
+        z-index: -1;
+        left: 101px;
+        top: 470.8px;
+        width: 170.55px;
+        height: 27.49px;
+        position: absolute;
+    }
+
+    .image-2 {
+        visibility: hidden;
+    }
+    .ellipse-2 {
+        visibility: hidden;
+    }
+
+    table {
+        margin: 20px 0px 50px 35px;
+    }
+    table th, table td {
+        padding-right: 95px;
+    }
+    table th {
+        font-size: 12px;
+        font-weight: 700;
+        text-align: left;
+        font-family: 'Roboto';
+    }
+    table td {
+        width: 85px;
+        font-size: 10px;
+        font-weight: 400;
+        text-align: left;
+        font-family: 'Roboto';
+    }
+    .last-th, .last-td {
+        left: 42px;
+        margin-top: 30px;
+    }
+    .last-th {
+        top: 615px;
+        position: absolute;
+    }
+    .last-td {
+        top: 634px;
+        padding-bottom: 50px;
+        position: absolute;
+    }
+}
